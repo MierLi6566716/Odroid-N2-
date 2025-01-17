@@ -15,7 +15,7 @@ def matrix_multiply(dim):
 
     # could easily do this in a couple lines with numpy but installing numpy gave an error I didn't really want to spend time looking into so here we are
     t0 = time.time()
-
+    h = 0
     V1 = []
     V2 = []
     for i in range(0, dim):
